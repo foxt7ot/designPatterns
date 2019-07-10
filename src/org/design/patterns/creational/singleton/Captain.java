@@ -1,4 +1,4 @@
-package org.design.patterns.singleton;
+package org.design.patterns.creational.singleton;
 
 /**
  * Why class is final? See {@link FootBallCaptain}

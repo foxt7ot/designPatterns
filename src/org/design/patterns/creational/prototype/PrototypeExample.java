@@ -1,4 +1,4 @@
-package org.design.patterns.prototype;
+package org.design.patterns.creational.prototype;
 
 /**
  * In general, creating a new instance from scratch is a costly operation. Using the prototype pattern, you can create
