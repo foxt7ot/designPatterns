@@ -26,10 +26,9 @@ public class FootBallCaptain {
         FootBallCaptain captain1 = FootBallCaptain.getFootBallCaptain();
         System.out.println("Trying to make another captain for your team:");
         FootBallCaptain captain2 = FootBallCaptain.getFootBallCaptain();
-        if (captain1 == captain2)
-        {
+        if (captain1 == captain2) {
             System.out.println("captain1 and captain2 are same instance.");
         }
-        FootBallCaptain.CaptainDerived derived=captain1.new CaptainDerived();
+        FootBallCaptain.CaptainDerived derived = captain1.new CaptainDerived();
     }
 }

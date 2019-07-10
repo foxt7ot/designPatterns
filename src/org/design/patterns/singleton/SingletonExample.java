@@ -6,10 +6,10 @@ package org.design.patterns.singleton;
  */
 
 /**
- Key characteristics:
- The constructor is private to prevent the use of a “new” operator.
- You’ll create an instance of the class, if you did not create any such instance earlier; otherwise, you’ll simply reuse the existing one.
- To take care of thread safety, I use the “synchronized” keyword.
+ * Key characteristics:
+ * The constructor is private to prevent the use of a “new” operator.
+ * You’ll create an instance of the class, if you did not create any such instance earlier; otherwise, you’ll simply reuse the existing one.
+ * To take care of thread safety, I use the “synchronized” keyword.
  */
 //Bill Pugh’s Solution
 class CricketCaptain {

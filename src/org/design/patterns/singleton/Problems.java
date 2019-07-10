@@ -6,20 +6,22 @@ class SerializableSingletonCaptain implements Serializable {
 
     private static final long serialVersionUID = 243234234234234L;
 
-    private SerializableSingletonCaptain(){}
+    private SerializableSingletonCaptain() {
+    }
 
-    private static final class SingletonHelper{
+    private static final class SingletonHelper {
         private static SerializableSingletonCaptain captain = new SerializableSingletonCaptain();
     }
 
-    public static SerializableSingletonCaptain getCaptain(){
+    public static SerializableSingletonCaptain getCaptain() {
         return SingletonHelper.captain;
     }
 
-    protected Object readResolve(){
+    protected Object readResolve() {
         return getCaptain();
     }
 }
+
 public class Problems {
 
     /**
